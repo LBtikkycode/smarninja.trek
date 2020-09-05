@@ -1,0 +1,5 @@
+from functions import cube
+
+num = int(input("Enter a number: "))
+cubic = cube(num)
+print("Cubic number from the number " + str(num) + " is " + str(cubic))
