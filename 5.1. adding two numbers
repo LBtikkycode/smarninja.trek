@@ -1,0 +1,7 @@
+#homework.py
+from functions import sum
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number you'd like to add to the first number: "))
+num_add = sum(num1, num2)
+print("Your numbers added are: ", num_add)
