@@ -1,0 +1,11 @@
+from functions import step_counter
+
+distance = input("Enter the distance: ")
+distance = float(distance.replace(",", "."))
+steps_distance = input("Enter the distance between your steps: ")
+steps_distance = float(steps_distance.replace(",", "."))
+
+
+steps_result = step_counter(distance, steps_distance)
+
+print("In the distance of " + str(distance) + " you've made " + str(steps_result) + " steps.")
