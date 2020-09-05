@@ -1,0 +1,17 @@
+"""
+1.1 mood checker
+
+"""
+mood = input ("How are you feeling today? ")
+if mood == "happy":
+    print ("I'm happy to see you happy :) ")
+elif mood == "nervous":
+    print ("Try taking a couple of deep breaths :) ")
+elif mood == "sad":
+    print("Try taking a couple of deep breaths :) ")
+elif mood == "depressed":
+    print("Maybe try to nap a bit :) ")
+elif mood == "anxious":
+    print("You’re allowed to feel anxious, even if you don’t know why. Take a deep breath :) ")
+else:
+    print ("This feeling is not in the library. Maybe try another word for this feeling ")
