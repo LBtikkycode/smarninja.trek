@@ -1,0 +1,3 @@
+def step_counter(distance, steps_distance):
+    steps_result = distance / steps_distance
+    return steps_result
