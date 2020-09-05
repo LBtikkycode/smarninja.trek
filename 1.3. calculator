@@ -1,0 +1,17 @@
+"""
+calculator
+"""
+first_num = int(input("Pick a number: "))
+second_num = int(input("Pick another number: "))
+operation = input("Pick an operation. '+', '-', '/' or '*' ")
+
+if operation == "+":
+    print(first_num + second_num)
+elif operation == "/":
+    print(first_num / second_num)
+elif operation == "*":
+    print(first_num * second_num)
+elif operation == "-":
+    print(first_num - second_num)
+else:
+    print("You didn't write a possible operation")
