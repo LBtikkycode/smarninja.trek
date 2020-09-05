@@ -1,0 +1,4 @@
+#functions.py
+def sum(number1, number2):
+    num_add = number1 + number2
+    return num_add
