@@ -1,0 +1,8 @@
+from functions import apsoulte_result
+
+first_num = int(input("Enter the first number: "))
+second_num = int(input("Enter the second number: "))
+
+result_abs = apsoulte_result(first_num, second_num)
+
+print("The absoulte difference from numbers " + str(first_num) + " and " + str(second_num) + " is " + str(result_abs))
