@@ -1,0 +1,4 @@
+#functions
+def cube(number):
+    cubic = number*number*number
+    return cubic
