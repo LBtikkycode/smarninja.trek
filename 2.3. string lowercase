@@ -1,0 +1,6 @@
+"""
+make string lowercase
+"""
+print("I correct uppercase input into lowercase input.")
+answer = input("Enter your sentence: ")
+print(answer.lower())
