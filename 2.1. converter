@@ -1,0 +1,24 @@
+"""
+converter
+"""
+print("Welcome!")
+
+while True:
+    print("I convert kilometers into miles.")
+
+    km = input("Enter the amount of kilometers you'd like converted: ")
+	km = float(km.replace(",", "."))
+
+    conv_mil = km * 0.62137
+
+    print(str(km) + " kilometers is " + str(conv_mil), " miles.")
+
+    convert_again = str(input("Would you like to convert something again? (yes/no): "))
+
+    if convert_again == "yes":
+        print("Okay, reset.")
+    elif convert_again == "no":
+        print("Okay, bye")
+        break
+    else:
+        print("Error. Try again.")
